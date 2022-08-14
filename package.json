@@ -1,0 +1,41 @@
+{
+  "name": "discord-translator",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "main": "build/main.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:changelog": "npx @discordx/changelog --root=src",
+    "dev": "node --loader ts-node/esm/transpile-only src/main.ts",
+    "serve": "node build/main.js",
+    "start": "nodemon --exec node --loader ts-node/esm/transpile-only src/main.ts",
+    "fmt": "prettier --write src"
+  },
+  "dependencies": {
+    "@discordx/importer": "1.1.10",
+    "@discordx/utilities": "5.0.0",
+    "discord.js": "14.2.0",
+    "discordx": "11.0.8",
+    "min-indent": "^1.0.1",
+    "mongoose": "6.5.2",
+    "ms": "2.1.3",
+    "reflect-metadata": "0.1.13",
+    "ts-node": "10.9.1"
+  },
+  "devDependencies": {
+    "@sapphire/prettier-config": "1.4.3",
+    "@types/min-indent": "1.0.0",
+    "@types/ms": "0.7.31",
+    "@types/node": "18.6.3",
+    "nodemon": "2.0.19",
+    "prettier": "2.7.1",
+    "typescript": "4.7.4"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=7.0.0"
+  },
+  "prettier": "@sapphire/prettier-config"
+}
