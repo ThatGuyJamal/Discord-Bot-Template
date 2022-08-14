@@ -67,7 +67,8 @@ export const ProductionEnvironment = {
         },
     }
 }
-
+```
+```ts
 export const LocalEnvironment = {
     BOT_TOKEN: '',
     BOT_ID: ``,
