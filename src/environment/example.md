@@ -4,10 +4,6 @@ export const ProductionEnvironment = {
     BOT_ID: ``,
     BOT_VERSION: '1.0.0',
 
-    GOOGLE_CLOUD_PROJECT_ID: '',
-    GOOGLE_CLOUD_API_KEY: '',
-    GOOGLE_CLOUD_API_CLIENT_ID: '',
-
     MONGO_DB_CONNECTION_URL: '',
     MONGODB_DATABASE_NAME: '',
     MONGODB_CLUSTER_NAME: '',
@@ -73,10 +69,6 @@ export const LocalEnvironment = {
     BOT_TOKEN: '',
     BOT_ID: ``,
     BOT_VERSION: '1.0.0',
-
-    GOOGLE_CLOUD_PROJECT_ID: '',
-    GOOGLE_CLOUD_API_KEY: '',
-    GOOGLE_CLOUD_API_CLIENT_ID: '',
 
     MONGO_DB_CONNECTION_URL: '',
     MONGODB_DATABASE_NAME: '',
