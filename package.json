@@ -1,5 +1,5 @@
 {
-  "name": "discord-translator",
+  "name": "enter-name-here",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
@@ -14,7 +14,7 @@
     "fmt": "prettier --write src"
   },
   "dependencies": {
-    "@discordx/importer": "1.1.10",
+    "@discordx/importer": "^1.1.10",
     "@discordx/utilities": "5.0.0",
     "discord.js": "14.3.0",
     "discordx": "11.1.12",
