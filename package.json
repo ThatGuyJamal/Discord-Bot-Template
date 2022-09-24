@@ -17,7 +17,7 @@
     "@discordx/importer": "^1.1.10",
     "@discordx/utilities": "5.0.0",
     "discord.js": "14.3.0",
-    "discordx": "11.1.12",
+    "discordx": "11.4.0",
     "min-indent": "^1.0.1",
     "mongoose": "6.5.4",
     "ms": "2.1.3",
