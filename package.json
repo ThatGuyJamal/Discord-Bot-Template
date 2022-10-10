@@ -16,7 +16,7 @@
   "dependencies": {
     "@discordx/importer": "^1.1.10",
     "@discordx/utilities": "5.0.0",
-    "discord.js": "14.3.0",
+    "discord.js": "14.6.0",
     "discordx": "11.1.12",
     "min-indent": "^1.0.1",
     "mongoose": "6.5.4",
